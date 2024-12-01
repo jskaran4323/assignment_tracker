@@ -1,0 +1,63 @@
+/* Header styling */
+header {
+  background-color: #343a40;
+  color: white;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Container inside header */
+header .container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* Logo styling */
+#logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-right: 1rem;
+}
+
+/* Horizontal navigation styling */
+.vertical-nav {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  display: block;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #6c757d;
+  color: #ffffff;
+}

@@ -1,0 +1,31 @@
+.copyright {
+  display: flex;
+  text-align: left;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: Black;
+}
+
+.vertical-footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-content {
+  list-style: none;
+
+  display: flex;
+  justify-content: flex-end;
+
+  column-gap: 1em;
+
+
+
+}
